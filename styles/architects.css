@@ -144,8 +144,12 @@ main > section{
     .teams{
         flex-direction: column;
     }
-    .team-image-container{
+    .team-image-container, .facts-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .facts-container{
+        justify-items: center;
+        gap: 24px;
     }
     .our-feature{
         margin: 20px;
